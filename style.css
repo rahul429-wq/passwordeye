@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+}
+.custome {
+  background-color: aliceblue;
+  padding: 10px 20px;
+  border-radius: 100px;
+}
+#txt1 {
+  border: none;
+  outline: none;
+  padding: 15px;
+  background-color: aliceblue;
+}
+#chk1 {
+  /* appearance: none; */
+  user-select: none;
+  position: relative;
+  border: none;
+  padding: 10px;
+  outline: none;
+  cursor: pointer;
+}
+/* #chk1::selection {
+  border: none;
+  outline: none;
+} */
